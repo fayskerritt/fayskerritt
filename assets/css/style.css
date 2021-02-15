@@ -4,6 +4,14 @@ body {
     font-family: "DM Serif Text", sans-serif;
 }
 
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+.table {
+    font-family: "Roboto", sans-serif;
+}
+
 /* nav */
 
 #navbar {
@@ -22,8 +30,27 @@ section {
     background: #e9b4a3;
 }
 
+.heading {
+    padding: 30px 10px 10px 10px;
+    border-bottom: 1px solid rgb(146, 108, 95, 0.5);
+}
+
 .image {
     width: 100%;
+}
+
+/* about */
+
+.progress {
+    height: 30px;
+    margin: 7px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.progress-bar {
+    text-align: left;
+    padding-left: 7px;
 }
 
 /* footer */
