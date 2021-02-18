@@ -12,24 +12,24 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md fixed-top navbar-light shadow-sm" id="navbar">
-            <div class="nav">
-                <h1 class="head-text">Fay Skerritt</h1>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse row nav-menu" id="nav-menu">
-                <div class="col-12 mx-auto text-center">
-                        <ul class="navbar-nav">
-                            <li class="menu-item"><a href="index.html" class="nav-link">Home</a></li>
-                            <li class="menu-item"><a href="#about" class="nav-link">About</a></li>
-                            <li class="menu-item"><a href="#resume" class="nav-link">Resume</a></li>
-                            <li class="menu-item"><a href="#contact" class="nav-link">Contact</a></li>
-                        </ul>
+        <nav class="navbar-expand-md fixed-top shadow-sm navbar-light" id="navbar">
+            <div class="row name">
+                <div class="nav">
+                    <h1 class="head-text">Fay Skerritt</h1>
                 </div>
             </div>
+            <div class="row">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <ul class="nav nav-menu justify-content-center collapse navbar-collapse" id="nav-menu">
+                <li class="menu-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="menu-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="menu-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                <li class="menu-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <section>
@@ -66,48 +66,52 @@
                     <h2 class="heading">Skills</h2>
                 </div>
             </div>
-            <div class="row progress-section">
-                <div class="col">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                            aria-valuemin="0" aria-valuemax="100">
-                            HTML5
-                            <span class="sr-only">90% complete</span>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1><i class="fab fa-html5 skill"></i></h1>
+                            <p class="card-text"><strong>HTML5</strong> - Markup language used for frontend structuring and presenting data on webpages</p>
                         </div>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                            aria-valuemin="0" aria-valuemax="100">
-                            CSS3
-                            <span class="sr-only">90% complete</span>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1><i class="fab fa-css3-alt skill"></i></h1>
+                            <p class="card-text"><strong>CSS3</strong> - Cascading Style Sheets used to style webpages written in HTML</p>
                         </div>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                            aria-valuemin="0" aria-valuemax="100">
-                            JavaScript
-                            <span class="sr-only">80% complete</span>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1><i class="fab fa-js-square skill"></i></h1>
+                            <p class="card-text"><strong>JavaScript</strong> - Another core technology of web development used to enable interactive webpages</p>
                         </div>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
-                            aria-valuemin="0" aria-valuemax="100">
-                            Python
-                            <span class="sr-only">75% complete</span>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1><i class="fab fa-python skill"></i></h1>
+                            <p class="card-text"><strong>Python</strong> - An object-oriented backend language</p>
                         </div>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30"
-                            aria-valuemin="0" aria-valuemax="100">
-                            Django
-                            <span class="sr-only">30% complete</span>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1><i class="fab fa-python skill"></i></h1>
+                            <p class="card-text"><strong>Python Frameworks</strong> - Has many supporting frameworks such as Flask and Django</p>
                         </div>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
-                            aria-valuemin="0" aria-valuemax="100">
-                            SQL
-                            <span class="sr-only">50% complete</span>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1><i class="fas fa-database skill"></i></h1>
+                            <p class="card-text"><strong>Databases</strong> - Including MongoDB and MySQL</p>
                         </div>
                     </div>
                 </div>
@@ -150,34 +154,44 @@
                 </div>
             </div>
         </div>
-        <div class="container text-center">
-            <h2 class="heading" id="resume">Experience</h2>
-        </div>
-        <div class="container text-center">
-            <h2 class="heading">Education</h2>
-        </div>
+       
         <div class="container text-center">
             <h2 class="heading" id="contact">Contact Me</h2>
+            <div class="contact-image">
+                <h5 class="section-header contact-header">Fill in the form below to send me a message:</h5>
+                <div class="form text-center">
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required />
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required />
+                        <textarea rows="5" name="message" class="form-control" id="message" placeholder="Message" required></textarea>
+                        <button type="submit" class="btn button center-block" id="submit-button">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
     <footer>
-        <div class="footer row justify-content-around shadow-sm">
-            <div class="col-3 text-center">
+        <div class="footer row justify-content-around shadow">
+            <div class="col-md-3 text-center my-2">
                 © Fay Skerritt 2021
             </div>
-            <div class="col-3 text-center">
+            <div class="col-md-3 text-center my-2">
                 <a href="https://github.com/fayskerritt"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/fay-s-1126b257/"><i class="fab fa-linkedin"></i></a>
                 <a href="https://www.facebook.com/public/Fay-Skerritt"><i class="fab fa-facebook"></i></a>
             </div>
-            <div class="col-3 text-center">
+            <div class="col-md-3 text-center my-2">
                 Download CV <a href="assets/cv/fayskerritt.pdf"><i class="fas fa-file-download"></i></a>
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script src="https://kit.fontawesome.com/8aee7f1a3a.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/email.js"></script>
 </body>
 </html>

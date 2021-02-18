@@ -23,18 +23,24 @@ p {
     justify-content: center;
 }
 
+.head-text {
+    font-size: 50px;
+    padding: 20px 0 10px 0;
+    margin: 0;
+}
+
 .nav-menu {
     width: 100%;
-    padding: 10px;
+    padding: 0 10px 10px 10px;
 }
 
 .menu-item {
-    padding: 0 10px;
+    padding: 6px 10px;
     font-size: 18px;
     list-style: none;
 }
 
-.navbar-nav .menu-item .nav-link {
+.nav-link {
     color: #000;
     display: inline;
 }
@@ -53,10 +59,26 @@ ul {
     width: 100%;
 }
 
+.collapse.show {
+    display: list-item;
+}
+
 .navbar-toggler {
-    color: #000;
-    border: none;
     margin: auto;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    color: #000;
 }
 
 /* main */
@@ -68,17 +90,12 @@ ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 50vh;
-}
-
-.head-text {
-    font-size: 50px;
-    padding: 20px 0 10px 0;
+    min-height: 60vh;
 }
 
 .heading {
-    padding: 30px 10px 10px 10px;
-    margin-bottom: 15px;
+    padding: 50px 10px 20px 10px;
+    margin-bottom: 40px;
     border-bottom: 1px solid #e6c092;
 }
 
@@ -108,6 +125,7 @@ ul {
 
 .card {
     margin-top: 15px;
+    border: none;
 }
 
 .card-title {
@@ -129,15 +147,42 @@ ul {
     text-decoration: none;
 }
 
+.skill {
+    color: #d1a980;
+    font-size: 70px;
+}
+
+/* contact */
+
+.form-control {
+    margin: 5px 0 5px 0;
+}
+
+.button {
+    background-color: #d1a980;
+    color: #fff;
+}
+
 /* footer */
 
 .footer {
     background-color: #fff;
-    height: 50px;
+    min-height: 50px;
+    margin-top: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     align-items: center;
     font-size: 18px;
 }
 
 .footer i {
     color: #000;
+    font-size: 22px;
+    padding: 10px 0 10px 0;
+}
+
+/* blog */
+
+.blog {
+    margin-top: 250px;
 }
