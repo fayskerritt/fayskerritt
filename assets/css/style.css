@@ -1,15 +1,28 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: "DM Serif Text", sans-serif;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 p {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
     font-size: 16px;
 }
 
 .table {
-    font-family: "Roboto", sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* nav */
@@ -25,6 +38,7 @@ p {
 
 .head-text {
     font-size: 50px;
+    font-weight: 700;
     padding: 20px 0 10px 0;
     margin: 0;
 }
@@ -43,6 +57,7 @@ p {
 .nav-link {
     color: #000;
     display: inline;
+    transition: all .2s ease-out;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -95,6 +110,7 @@ ul {
 
 .heading {
     padding: 50px 10px 20px 10px;
+    font-weight: 700;
     margin-bottom: 40px;
     border-bottom: 1px solid #e6c092;
 }
@@ -140,6 +156,7 @@ ul {
     text-decoration: none;
     color: #b19272;
     font-size: 18px;
+    transition: all .2s ease-out;
 }
 
 .link:hover, .link:focus {
@@ -179,6 +196,11 @@ ul {
     color: #000;
     font-size: 22px;
     padding: 10px 0 10px 0;
+    transition: all .2s ease-out;
+}
+
+.footer i:hover, .footer i:focus {
+    color: #d1a980;
 }
 
 /* blog */
